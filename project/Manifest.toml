@@ -1,0 +1,4 @@
+# This manifest is intentionally not pinned in this environment because Julia is unavailable.
+# Run from `project/` once Julia is installed:
+#   julia --project=. -e 'using Pkg; Pkg.instantiate(); Pkg.resolve()'
+# Then commit the generated full Manifest.toml for exact reproducibility.
